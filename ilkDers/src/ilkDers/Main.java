@@ -1,21 +1,25 @@
+/*
+IF
+*/
+
 package ilkDers;
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		String mesajKarsilama = ("Merhaba Sayýn Müþterimiz, Dolar Bugün : ");
+		String mesajKarsilama = ("Merhaba SayÃ½n MÃ¼Ã¾terimiz, Dolar BugÃ¼n : ");
 		int dolarDun = 7;
 		int dolarBugun = 8;
 		
 		if (dolarDun<dolarBugun) {
-			System.out.println(mesajKarsilama + "Yükseldi");
+			System.out.println(mesajKarsilama + "YÃ¼kseldi");
 		}
 		else if (dolarDun>dolarBugun) {
-			System.out.println(mesajKarsilama + "Düþtü");
+			System.out.println(mesajKarsilama + "DÃ¼Ã¾tÃ¼");
 		}
 		else {
-			System.out.println(mesajKarsilama + "Eþit");
+			System.out.println(mesajKarsilama + "EÃ¾it");
 		}
 			
 		
